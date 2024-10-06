@@ -1,0 +1,330 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.pacotes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+/* Social media ícones */
+.social-media img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 55px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    display: inline;
+    cursor: pointer;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a img {
+    width: 40px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Efeito de zoom nos ícones de redes sociais */
+.social-media li a:hover img {
+    transform: scale(1.3);
+}
+
+/* Estilos básicos do botão */
+.whatsapp-button {
+    position: fixed;
+    /* Fixa o botão na posição */
+    bottom: 20px;
+    /* Distância do rodapé */
+    right: 20px;
+    /* Distância da lateral direita */
+    z-index: 100;
+    /* Mantém o botão na frente de outros elementos */
+    border-radius: 50%;
+    /* Cor de fundo */
+    /* Deixa o botão circular */
+    /* Sombra ao redor */
+    padding: 10px;
+    /* Espaçamento interno */
+    transition: transform 0.3s;
+    /* Efeito de transformação */
+}
+
+.whatsapp-button img {
+    width: 80px;
+    /* Tamanho da imagem */
+    height: 90px;
+    /* Tamanho da imagem */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    /* Aumenta o botão quando o cursor está sobre ele */
+}
+
+
+
+
+
+
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: inline;
+}
+
+/* Lista de serviços */
+.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicos ul li {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #292626;
+}
+
+.paginas {
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+
+
+.servicos {
+    background-color: rgb(232, 241, 238);
+    border-radius: 15px;
+    box-shadow: #000000 2px 2px 3px;
+
+
+}
+
+
+
+
+
+/* Esconde as imagens que saem da tela */
+#carousel-section {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+/* Estiliza o contêiner que contém as imagens */
+.carousel-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+/* As imagens estão dispostas horizontalmente em linha */
+.carousel-images {
+    display: flex;
+    flex-wrap: nowrap;
+    animation: slide 18s linear infinite;
+    /* Movimenta as imagens continuamente */
+}
+
+/* Estilo individual das imagens */
+.carousel-images img {
+    width: 555px;
+    height: 250px;
+    /* Ajuste o tamanho das imagens */
+    margin: 0 5px;
+    /* Espaçamento entre as imagens */
+    transition: transform 0.5s ease;
+    /* Suaviza o efeito de zoom */
+    filter: brightness(0.8);
+    /* Efeito de vinheta */
+}
+
+/* Efeito de zoom e vinheta quando o usuário passa o mouse */
+.carousel-images img:hover {
+    transform: scale(1.1);
+    /* Aumenta a imagem */
+    filter: brightness(1);
+    /* Remove a vinheta ao passar o mouse */
+}
+
+/* Animação de rolagem contínua */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-10%);
+        /* Move para a esquerda continuamente */
+    }
+}
+
+
+
+/* Estilizando o header e a seção */
+header {
+    height: 50vh;
+    /* O header ocupa toda a altura da tela */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Wrapper do carrossel */
+.carousel-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* O container que mantém os backgrounds das imagens */
+.carousel-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* As imagens cobrem o container */
+    background-position: center;
+    animation: slide-backgrounds 10s infinite;
+    /* Animação das imagens */
+}
+
+/* Definindo as 3 imagens de fundo que serão rotacionadas */
+@keyframes slide-backgrounds {
+    0% {
+        background-image: url('IIMG/3.png');
+    }
+
+    33% {
+        background-image: url('IIMG/3.png');
+    }
+
+    34% {
+        background-image: url('IIMG/1.png');
+    }
+
+    66% {
+        background-image: url('IIMG/1.png');
+    }
+
+    67% {
+        background-image: url('IIMG/2.png');
+    }
+
+    100% {
+        background-image: url('IIMG/2.png');
+    }
+}
+
+
+
+
+
+
+
+.pacotes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.produtos {
+    color: #000000;
+    width: 90%;
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.produtos:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+    border-color: rgb(255, 255, 255);
+}
+
+.card-body1 {
+    padding: 20px;
+}
+
+h2,
+h3 {
+    color: #000000;
+}
+
+.card-text,
+ol {
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+/* Social media ícones */
+.simbolo img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 55px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    margin-left: 42%;
+}
+
+.simbolo li {
+    margin: 0 10px;
+}
+
+.simbolo li a img {
+    width: 40px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Efeito de zoom nos ícones de redes sociais */
+.simbolo li a:hover img {
+    transform: scale(1.3);
+}
+
+
+.card-title {
+    background-color: rgb(244, 60, 60);
+    color: white;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+}

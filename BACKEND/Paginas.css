@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+
+
+/* styles.css */
+
+/* Estilos básicos do botão */
+.whatsapp-button {
+    position: fixed;
+    /* Fixa o botão na posição */
+    bottom: 20px;
+    /* Distância do rodapé */
+    right: 20px;
+    /* Distância da lateral direita */
+    z-index: 100;
+    /* Mantém o botão na frente de outros elementos */
+    background-color: #ffffff;
+    /* Cor de fundo */
+    border-radius: 50%;
+    /* Deixa o botão circular */
+    /* Sombra ao redor */
+    padding: 10px;
+    /* Espaçamento interno */
+    transition: transform 0.3s;
+    /* Efeito de transformação */
+}
+
+.whatsapp-button img {
+    width: 140px;
+    /* Tamanho da imagem */
+    height: 100px;
+    /* Tamanho da imagem */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    /* Aumenta o botão quando o cursor está sobre ele */
+}
+
+/* Estilo dos links */
+.secoes ul li {
+    margin: 10px 0;
+}
+
+.secoes ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.secoes ul li a img {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom nos ícones */
+.secoes ul li a:hover img {
+    transform: scale(1.2);
+}
+
+/* Social media ícones */
+.social-media img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 55px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    display: inline;
+    cursor: pointer;
+
+
+    position: fixed;
+    /* Fixa o botão na posição */
+    bottom: 20px;
+    /* Distância do rodapé */
+    left: 20px;
+    /* Distância da lateral direita */
+
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a img {
+    width: 40px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Efeito de zoom nos ícones de redes sociais */
+.social-media li a:hover img {
+    transform: scale(1.3);
+}
+
+
+.links a {
+    color: #f9f7f7;
+    text-decoration: none;
+    font-size: 24px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(174, 174, 255);
+    display: block;
+    border-radius: 25px;
+    box-shadow: 1px 8px 10px #ded7d7;
+    margin-left: 40%;
+
+}
+
+.links a:hover {
+    background-color: rgb(171, 168, 168);
+}
+
+.links a:hover {
+    box-shadow: 1px 15px 20px #ded7d7;
+}
+
+
+
+
+
+
+.col-md-6 {
+    width: 200px;
+    border-radius: 450px;
+
+}
+
+.col-md-6 {
+    transform: scale(1.05);
+    border-color: rgb(255, 255, 255);
+}
+
+.col-md-6 {
+    padding: 20px;
+    text-align: center;
+    display: inline;
+}

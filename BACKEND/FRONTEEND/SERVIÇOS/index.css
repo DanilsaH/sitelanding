@@ -1,0 +1,228 @@
+/* Estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+
+
+body {
+    background-color: #ffffff;
+    color: #3b3939;
+    line-height: 1.6;
+    box-shadow: 10px 10px 10px;
+}
+
+header {
+    background-color: #fffafa;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    background-color: #666;
+}
+
+header nav ul li a:hover {
+    color: #f0a500;
+    /* Cor de destaque para hover */
+}
+
+header h1 {
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Estilo das seções */
+section {
+    padding: 60px 40px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+}
+
+section p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Lista de serviços */
+.servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.servicos ul li {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #292626;
+}
+
+
+
+/* Destaque de promoção */
+.promocao {
+    background-color: rgb(255, 248, 248);
+    padding: 20px;
+    border-top: 5px solid #000000;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Exemplo de projeto */
+.projeto-feito {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Marketing Digital */
+.marketing .descricao-servicos {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #504545;
+    border-radius: 8px;
+}
+
+
+.promocao img {
+    width: 380px;
+    height: 400px;
+}
+
+
+
+/* styles.css */
+
+/* Estilos básicos do botão */
+.whatsapp-button {
+    position: fixed;
+    /* Fixa o botão na posição */
+    bottom: 20px;
+    /* Distância do rodapé */
+    right: 20px;
+    /* Distância da lateral direita */
+    z-index: 100;
+    /* Mantém o botão na frente de outros elementos */
+    background-color: #ffffff;
+    /* Cor de fundo */
+    border-radius: 50%;
+    /* Deixa o botão circular */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Sombra ao redor */
+    padding: 10px;
+    /* Espaçamento interno */
+    transition: transform 0.3s;
+    /* Efeito de transformação */
+}
+
+.whatsapp-button img {
+    width: 50px;
+    /* Tamanho da imagem */
+    height: 50px;
+    /* Tamanho da imagem */
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    /* Aumenta o botão quando o cursor está sobre ele */
+}
+
+/* Estilo dos links */
+.secoes ul li {
+    margin: 10px 0;
+}
+
+.secoes ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.secoes ul li a img {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de zoom nos ícones */
+.secoes ul li a:hover img {
+    transform: scale(1.2);
+}
+
+/* Social media ícones */
+.social-media img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 55px;
+    height: 50px;
+    background-color: #583f3f;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    display: inline;
+    cursor: pointer;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media li a img {
+    width: 40px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Efeito de zoom nos ícones de redes sociais */
+.social-media li a:hover img {
+    transform: scale(1.3);
+}
